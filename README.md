@@ -1,4 +1,4 @@
-# CN-Lab-18CSL57
+# CN-Lab-VTU-18CSL57
 Computer Networks Lab Programs
 
 PART A 

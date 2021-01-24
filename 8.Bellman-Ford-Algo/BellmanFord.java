@@ -1,12 +1,10 @@
 import java.util.Scanner;
-
 public class BellmanFord {
 	int d[],noofvertices;
 	public BellmanFord(int noofvertices) {
 		this.noofvertices = noofvertices;
 		d = new int[noofvertices + 1];
 	}
-	
 	public static void main(String[] args) 
 	{
 		int noofvertices,source;
@@ -27,7 +25,6 @@ public class BellmanFord {
 					a[sn][dn] = 999;
 			}
 		}
-		
 		System.out.println("Enter src vertex:");		
 		source = s.nextInt();
 		BellmanFord b = new BellmanFord(noofvertices);
